@@ -23,5 +23,5 @@ $themeReplace['site_name'] = $_SERVER['HTTP_HOST'].' Glype&reg; proxy';
 
 // Proxy description text
 $themeReplace['description'] = <<<OUT
-   <p>汉化版本</p>
+   <p>系统版本</p>
 OUT;

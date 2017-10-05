@@ -24,7 +24,8 @@
 ******************************************************************/
 
 // Website name
-$themeReplace['site_name'] = $_SERVER['HTTP_HOST'].' Glype&reg; proxy';
+//$themeReplace['site_name'] = $_SERVER['HTTP_HOST'].' Glype&reg; proxy';
+$themeReplace['site_name'] = '科学上网'.' Bitcore.top&reg; 代理';
 
 // Meta description
 $themeReplace['meta_description'] = <<<OUT
@@ -38,7 +39,7 @@ OUT;
 
 // Proxy description text
 $themeReplace['description'] = <<<OUT
-   <p>汉化版本</p>
+   <p>竭诚为您提供轻松,便捷,免费的科学上网方式</p>
 OUT;
 
 // Ad location above the form on the index page

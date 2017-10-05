@@ -1,9 +1,7 @@
-<meta charset="utf-8">
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-
 <html>
 <head>
 <title><!--[site_name]--></title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 <meta name="description" content="<!--[meta_description]-->">
 <meta name="keywords" content="<!--[meta_keywords]-->">
 <style type="text/css">
@@ -225,17 +223,17 @@
 
 		<!--[error]-->
 
-		<h2 class="first">关于汉化</h2>
+		<h2 class="first">关于代理</h2>
 
 		<!--[description]-->
 
-		<h2>URL</h2>
+		<h2>输入网址, 点击访问</h2>
 
 		<!--[index_above_form]-->
 
 		<form action="includes/process.php?action=update" method="post" onsubmit="return updateLocation(this);" class="form" target="_blank">
 			<input type="text" name="u" id="input" size="40" class="textbox">
-			<input type="submit" value="Go" class="button"> &nbsp; [<a style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">选项</a>]
+			<input type="submit" value="来一发" class="button"> &nbsp; [<a style="cursor:pointer;" onclick="document.getElementById('options').style.display=(document.getElementById('options').style.display=='none'?'':'none')">选项</a>]
 			<ul id="options">
 				<?php foreach ($toShow as $option) echo '<li><input type="checkbox" name="'.$option['name'].'" id="'.$option['name'].'"'.$option['checked'].'><label for="'.$option['name'].'" class="tooltip" onmouseover="tooltip(\''.$option['escaped_desc'].'\')" onmouseout="exit();">'.$option['title'].'</label></li>';?>
 			</ul>
@@ -250,11 +248,11 @@
 			<li class="left"><a href="index.php">首页</a></li>
 			<li class="left"><a href="edit-browser.php">编辑</a></li>
 			<li class="left"><a href="cookies.php">管理 Cookies</a></li>
-			<li><a href="disclaimer.php">汉化声明</a></li>            
+			<li><a href="disclaimer.php">免责声明</a></li>
 		</ul>
 	</div>
 	<div id="footer">
-    Glype 汉化由<a href="http://www.rootcn.cn">权限技术</a>提供
+    AGENT 系统由<a href="http://www.bitcore.top">科学上网</a>提供
 		<!--Powered by <a href="http://www.glype.com/">Glype</a>&reg; <!--[version]-->.
 	</div>
 </div>

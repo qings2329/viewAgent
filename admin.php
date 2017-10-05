@@ -586,7 +586,7 @@ OUT;
 
 				<div id="topheader">
 					<h1 id="title">
-						<a href="{$self}">Glype 汉化控制面板</a><br>
+						<a href="{$self}">Glype 系统控制面板</a><br>
 						<span>for {$http_host}</span>
 					</h1>
 				</div>
@@ -684,7 +684,7 @@ OUT;
 		<div id="footer">
 
 			<div id="footer_bg">
-            <p>Glype 汉化由<a href="http://www.rootcn.cn">权限技术</a>提供</p>
+            <p>Glype 系统由<a href="http://www.bitcore.top">科学上网</a>提供</p>
 				<!--<p><a href="http://www.glype.com/">Glype</a>&reg; &copy; 2007-2015 Glype. All rights reserved.</p>-->
 			</div>
 
@@ -1166,7 +1166,7 @@ switch ( $action ) {
 				if ( file_put_contents(ADMIN_GLYPE_SETTINGS, $file) ) {
 
 					# Add confirmation
-					$confirm->add('安装成功. 感谢您选择 <b>' . 权限技术 . '</b> 提供的汉化版本 .');
+					$confirm->add('安装成功. 感谢您选择 <b>' . 科学上网 . '</b> 提供的系统版本 .');
 
 					# Log in the installer
 					$user->login($username);
@@ -1367,7 +1367,7 @@ OUT;
 		# --------------------------------------
 
 		# Print page header
-		$output->bodyTitle = '欢迎使用汉化控制面板';
+		$output->bodyTitle = '欢迎使用系统控制面板';
 
 		#
 		# Glype news
@@ -1973,9 +1973,9 @@ OUT;
 		</form>
 
 		<div class="hr"></div>
-		<h2><a name="notes"></a>汉化:</h2>
+		<h2><a name="notes"></a>系统:</h2>
 		<ul class="black">
-		        <li><b>Glype汉化！本次汉化由<a href="http://www.rootcn.cn">权限技术</a>提供！</b></li>
+		        <li><b>Glype系统！本次系统由<a href="http://www.bitcore.top">科学上网</a>提供！</b></li>
 			<!--<li><b>Temporary directory:</b> many features require write access to the temporary directory. Ensure you set up the permissions accordingly if you use any of these features: logging, server-side cookies, maintenance/cleanup and the server load limiter.</li>
 			<li><b>Sensitive data:</b> some temporary files may contain personal data that should be kept private - that is, log files and server-side cookies. If using these features, protect against unauthorized access by choosing a suitable location above the webroot or using .htaccess files to deny access.</li>
 			<li><b>Relative paths:</b> you can specify some paths as relative to other paths. For example, if logs are created in /[tmp_dir]/logs/ (as per the default setting), you can edit the value for tmp_dir and the logs path will automatically update.</li>

@@ -57,7 +57,7 @@
 			<?php foreach ($toShow as $option) echo '<li><input type="checkbox" name="'.$option['name'].'" id="'.$option['name'].'"'.$option['checked'].'><label for="'.$option['name'].'" class="tooltip" onmouseover="tooltip(\''.$option['escaped_desc'].'\')" onmouseout="exit();">'.$option['title'].'</label></li>';?>
 		</ul>
 	</form>
-	Glype 汉化由<a href="http://www.rootcn.cn">权限技术</a>提供
+	Glype 系统由<a href="http://www.bitcore.top">科学上网</a>提供
 	<!--<p class="center">Powered by <a href="http://www.glype.com/">Glype</a>&reg; <!--[version]-->.</p>  
 </div>
 </body>
