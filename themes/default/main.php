@@ -223,7 +223,7 @@
 
 		<!--[error]-->
 
-		<h2 class="first">关于代理</h2>
+		<h2 class="first">关于科学上网V1.1</h2>
 
 		<!--[description]-->
 
