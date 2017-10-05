@@ -111,7 +111,7 @@ $CONFIG['ip_bans'] = array();
 ******************************************************************/
 
 # ##
-$CONFIG['connection_timeout'] = 5;
+$CONFIG['connection_timeout'] = 10;
 
 # ##
 $CONFIG['transfer_timeout'] = 0;

@@ -29,17 +29,18 @@ $themeReplace['site_name'] = '科学上网'.' Bitcore.top&reg; 代理';
 
 // Meta description
 $themeReplace['meta_description'] = <<<OUT
-
+本网站是一个在线代理系统,能提高对部分国外网站的访问速度.
 OUT;
 
 // Meta keywords (separate with comma)
 $themeReplace['meta_keywords'] = <<<OUT
-
+在线代理,科学上网,代理,vpn,bitcoin
 OUT;
 
 // Proxy description text
 $themeReplace['description'] = <<<OUT
-   <p>竭诚为您提供轻松,便捷,免费的科学上网方式</p>
+   <p>竭诚为您提供轻松,便捷,免费的科学上网方式!</p>
+   <p>注意: 暂时不支持视频网站</p>
 OUT;
 
 // Ad location above the form on the index page
