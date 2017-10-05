@@ -60,6 +60,15 @@
       line-height: 10px;
    }
 </style>
+
+<script>
+ // 解决goo界面显示的bug
+ window.onload = function () {
+     var searchform = document.getElementById("searchform");
+     searchform.style.position = "";
+ }
+</script>
+
 <div id="include">
 <?php
 // Print form using variables (saves repeatedly opening/closing PHP tags)
