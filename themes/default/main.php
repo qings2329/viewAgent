@@ -4,7 +4,19 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8">
 <meta name="description" content="<!--[meta_description]-->">
 <meta name="keywords" content="<!--[meta_keywords]-->">
-<style type="text/css">
+
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?64fe110da9716041d78f27c44666ddd0";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+
+	<style type="text/css">
 	/* GLOBAL ELEMENTS */
 	html,body {
 		margin: 0; padding: 0;
