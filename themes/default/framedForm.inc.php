@@ -64,8 +64,11 @@
 <script>
  // 解决goo界面显示的bug
  window.onload = function () {
-     var searchform = document.getElementById("searchform");
-     searchform.style.position = "";
+
+     var searchForm = document.getElementById("searchform");
+     if(searchForm) {
+         searchForm.style.position = "relative";
+     }
  }
 </script>
 
